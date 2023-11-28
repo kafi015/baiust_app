@@ -1,7 +1,6 @@
 import 'package:baiust/ui/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import 'home_screen.dart';
 
@@ -19,8 +18,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Future.delayed(Duration(seconds: 2)).then((value) {
-      Get.to(HomeScreen());
+    Future.delayed(const Duration(seconds: 2)).then((value) {
+      Get.to(const HomeScreen());
     });
   }
 

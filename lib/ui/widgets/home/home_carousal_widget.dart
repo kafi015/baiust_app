@@ -13,7 +13,7 @@ class HomeCaruosalWidget extends StatelessWidget {
  // final HomeSliderModel homeSliderModel;
   //HomeCaruosalWidget({super.key, required this.homeSliderModel});
 
-  List<Color> color = [
+  final List<Color> color = [
     Colors.black,
     Colors.red,
     Colors.blue,
